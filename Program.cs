@@ -13,20 +13,8 @@
             Console.WriteLine(mult);
             div = Calculator.Div(sub, 2);
             Console.WriteLine(div);
-            RunGreeter();
+            Greeter.Run();
         }
 
-
-        static void RunGreeter()
-        {
-            Console.WriteLine("Whats your name?");
-            string name = Console.ReadLine();
-            Greeter(name);
-
-        }
-        static void Greeter(string name)
-        {
-            Console.WriteLine("Hello " + name + ", how are you?");
-        }
     }
 }
